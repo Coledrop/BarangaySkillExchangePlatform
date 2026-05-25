@@ -1,17 +1,14 @@
 ﻿namespace BarangaySkillExchangePlaform.Server.Data
 {
     using BarangaySkillExchangePlaform.Server.Models;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
 
-
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User, IdentityRole<int>, int>
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options)
-            : base(options)
-        {
-        }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<User> Users => Set<User>();
         public DbSet<SkillOffer> SkillOffers => Set<SkillOffer>();
         public DbSet<ServiceRequest> ServiceRequests => Set<ServiceRequest>();
         public DbSet<Exchange> Exchanges => Set<Exchange>();
@@ -20,9 +17,12 @@
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<User>()
-                .HasIndex(user => user.Email)
-                .IsUnique();
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.ToTable("Users");
+                entity.Property(u => u.ContactNumber).HasColumnName("ContactNumber");
+                entity.HasIndex(u => u.Email).IsUnique();
+            });
 
             modelBuilder.Entity<SkillOffer>()
                 .HasOne(skillOffer => skillOffer.User)

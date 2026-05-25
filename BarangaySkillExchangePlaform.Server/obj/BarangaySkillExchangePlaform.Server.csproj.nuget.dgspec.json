@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj": {}
+    "c:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj": {
+    "c:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj",
+        "projectUniqueName": "c:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj",
         "projectName": "BarangaySkillExchangePlaform.Server",
-        "projectPath": "C:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj",
+        "projectPath": "c:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\BarangaySkillExchangePlaform.Server.csproj",
         "packagesPath": "C:\\Users\\CL3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\obj\\",
+        "outputPath": "c:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.6, )"
