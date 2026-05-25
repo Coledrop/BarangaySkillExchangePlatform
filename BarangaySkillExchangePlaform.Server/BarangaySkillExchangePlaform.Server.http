@@ -1,0 +1,6 @@
+@BarangaySkillExchangePlaform.Server_HostAddress = http://localhost:5067
+
+GET {{BarangaySkillExchangePlaform.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

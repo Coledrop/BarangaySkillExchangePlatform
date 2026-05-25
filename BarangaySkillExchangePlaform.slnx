@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="barangayskillexchangeplaform.client/barangayskillexchangeplaform.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="BarangaySkillExchangePlaform.Server/BarangaySkillExchangePlaform.Server.csproj" />
+</Solution>
