@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:55047",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\CL3\\source\\repos\\BarangaySkillExchangePlaform\\BarangaySkillExchangePlaform.Server\\..\\barangayskillexchangeplaform.client",
+"WorkingDirectory": "C:\\Users\\HP\\Documents\\Bootcamp\\BarangaySkillExchangePlatform\\BarangaySkillExchangePlaform.Server\\..\\barangayskillexchangeplaform.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BarangaySkillExchangePlaform.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9e9d57736c91ef03a1efd32f84b5237442b3f8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e618e951e3aee3c18309bcb66a77c81cffbd974")]
 [assembly: System.Reflection.AssemblyProductAttribute("BarangaySkillExchangePlaform.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BarangaySkillExchangePlaform.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
