@@ -43,7 +43,6 @@ Request body:
   "password": "secret123",
   "contactNumber": "09171234567",
   "address": "Barangay Sample",
-  "purok": "Purok 1",
   "role": "Resident"
 }
 ```
@@ -176,7 +175,6 @@ Request body:
   "email": "juan@example.com",
   "contactNumber": "09171234567",
   "address": "Barangay Sample",
-  "purok": "Purok 1",
   "role": "Resident"
 }
 ```
@@ -189,7 +187,6 @@ Fields:
 | `email` | string | Yes | `""` | Must be unique. |
 | `contactNumber` | string | Yes | `""` | Saved to `ContactNumber`. |
 | `address` | string | Yes | `""` | Saved to `Address`. |
-| `purok` | string | No | `""` | Present in DTO but not currently saved to the `User` model. |
 | `role` | string | No | `"Resident"` | Saved to `Role`. |
 
 Success response:
@@ -219,7 +216,6 @@ Request body:
   "fullName": "Juan Dela Cruz",
   "contactNumber": "09171234567",
   "address": "Barangay Sample",
-  "purok": "Purok 1",
   "status": "Active"
 }
 ```
@@ -231,7 +227,6 @@ Fields:
 | `fullName` | string | Yes | `""` | Updates `FullName`. |
 | `contactNumber` | string | Yes | `""` | Updates `ContactNumber`. |
 | `address` | string | Yes | `""` | Updates `Address`. |
-| `purok` | string | No | `""` | Present in DTO but not currently saved to the `User` model. |
 | `status` | string | No | `"Active"` | Updates `Status`; no controller-level allowed list is enforced. |
 
 Success response:
